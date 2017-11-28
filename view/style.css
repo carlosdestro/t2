@@ -1,0 +1,238 @@
+body
+{
+	font-family: verdana;
+	margin: 30px 0px 0px 0px;
+	background-color: 222222;
+	font-size: 20px;
+	color: white;
+	overflow-y: scroll;
+}
+
+a
+{
+	text-decoration: none;
+	padding: 10px;
+	background-color:#FFF;
+	color: black;
+}
+
+
+
+
+#menu a:nth-child(1),
+#menu a:hover
+{
+	background-color: rgba(0,0,0,.9);	
+	color: white;
+}
+
+.button
+{
+	width: 200px;
+	margin-bottom: 10px;
+	background-color: #225;
+}
+
+.title
+{
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 150%;
+}
+
+p
+{
+	text-align:justify;
+	line-height:30px;
+}
+
+.content
+{
+	position: absolute;
+	background-color: rgba(0,0,0,.9);
+	margin-top: 10px;
+	width: 900px;
+	left: 50%;
+	margin-left: -450px;	
+	padding: 10px 20px;
+}
+
+
+
+#menu
+{
+	width:600px;
+	padding-left: 50%;
+	height: 24px;
+}
+
+input
+{
+	width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+form input
+{
+	color: white;
+	margin: 10px 0px;
+	border: 1px solid rgba(255,255,255,.9);
+	background-color: 222233;
+}
+
+form #descricao
+{
+	background-color: 222233
+	color: black;
+}
+
+form span
+{
+	margin: 10px 0px;
+}
+
+.item:hover input
+{
+	background-color: red !important;
+}
+
+
+.cadastro
+{
+	width: 100%;
+}
+
+.grid
+{
+	width: 100%;
+}
+
+.grid .item input,
+.grid_header span,
+.grid input
+{
+	width: 30%;
+	cursor: pointer;
+	border: 0px;
+	border-bottom: 1px solid rgba(0,0,0,.9);
+	text-align: center;
+	color: black;
+	background-color: white;
+	font-size: 16px;
+	padding: 10px 0px;
+	margin: 2px 0px;
+	display: inline-block;
+}
+
+
+.grid .item input.id,
+.grid_header span.id
+	{width: 10%;
+	}
+
+.grid .item,
+.grid_header
+{
+	margin-left: 4px;
+	margin-right: -9px;
+}
+
+.grid .item input,
+.grid_header span
+{
+	margin: 2px -4px;
+}
+
+.form_item
+{
+	padding: 10px 0px;
+	width: 100%;
+	display: inline-block;
+}
+
+.form_item_codigo
+{
+	width: 100%
+	display: inline-block;
+}
+
+.form_item_descricao
+{
+	width: 80%;
+	display: inline-block;
+}
+
+
+
+.grid_header .descricao,
+.grid .item .descricao,
+.grid #descricao
+{
+	width: 45%;
+	text-align: left;
+	padding-left: 12px;
+}
+
+.grid_header .descricao
+{
+	padding-left: 0px;
+}
+
+
+.grid .item .validade,
+.grid_header .validade,
+.grid #validade
+{
+	width: 15%;
+}
+
+#limpar
+{
+	float: right;
+}
+
+
+.grid_item
+{
+	display: none;
+}
+
+.title a
+{
+	font-size: 12px;
+}
+
+.count
+{
+	color: red;
+	background-color: white;
+	display: block;
+	padding: 0px 10px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.count a
+{
+	background-color: rgba(0,0,0,.9);		
+	color: white;
+}
+.content
+{
+	width: 600px !important;
+	margin-left: -300px !important;
+	
+}
+
+.logo
+{
+	width: 100px;
+	height: 100px;
+	background-image: url("../images/11.jpg");
+	background-position: 50% 50%;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	float: right;
+}
