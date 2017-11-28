@@ -70,20 +70,7 @@ elseif ($_REQUEST["op"]=="remover")
 
 	if (isset($_REQUEST["id"]))
 	{
-		$sql = "DELETE FROM usuario WHERE id=?";
-
-		
-		$r = sql( $sql, "i", Array ( $_REQUEST["id"] ));
-
-		die(json_encode($_REQUEST["id"]));
+		remover($_REQUEST["id"]);
 	}
-
-
-
-$id = $r [0];
-
-print_r ($r);
-
-die(json_encode($r));
 }
 ?>

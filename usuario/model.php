@@ -49,4 +49,13 @@ function adicionar($nome, $telefone, $email, $data_nasc)
 	die(json_encode($id));
 }
 
+function remover($id)
+{
+	$sql = "DELETE FROM usuario WHERE id=?";
+
+	$r = sql( $sql, "i", Array ( $id));
+
+	die(json_encode($id));
+}
+
 ?>
